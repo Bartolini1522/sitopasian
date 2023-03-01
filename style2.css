@@ -1,0 +1,224 @@
+/*
+CSS for our Web
+*/
+body {
+font-family: Arial;
+background-color: #3e889c;
+line-height: 200%;
+padding: 30px;
+ }
+h2 {
+font-family: Arial;
+background-color: #115b73;
+color: black;
+padding: 50px;
+border-radius: 50px;
+width: 80%;
+align-items: center;
+}
+
+h1 {
+font-family: Arial;
+font-size: 30px;
+background-color: #ffffff;
+color: black;
+padding: 20px;
+width: 100%;
+vertical-align: top;
+align-items: left;
+height: 20%;
+
+}
+h3 {
+font-family: Arial;
+border-radius: 100px;
+color: black;
+padding: 10px;
+}
+h4 {
+font-family: Arial;
+background-color: orange;
+color: black;
+padding: 10px;
+border-radius: 100px;
+}
+h5 {
+font-family: Arial;
+background-color: orange;
+color: black;
+padding: 10px;
+border-radius: 100px;
+}
+h6 {
+font-family: Arial;
+background-color: #c3bcae;
+color: black;
+padding: 10px;
+border-radius: 100px;
+}
+li {
+font-size: small;
+}
+p {
+font-size: 3;
+color: black;
+background-color: #ffffff;
+padding: 30px;
+
+}
+a {
+font-weight: bold;
+
+}
+a:link {
+color: blue;
+}
+
+section {
+  max-width: 450px;
+}
+
+details {
+  background: orange;
+  color: black;
+  padding: 15px;
+  margin-bottom: 2px;
+  border-radius: 25px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+div#orizzontale {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  }
+
+  .dropbtn {
+    background-color: #0d9adb;                        
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 100px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .Menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    width: 40%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    align-items: center;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  .dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 100px;
+    
+    margin: 0 auto;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .Menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .dropdown-content {
+    margin: 0 auto;
+  }
+  /* Center child elements */
+body,
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Styles for website counter container */
+.website-counter {
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Styles for reset button */
+#reset {
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<h1> 
+  <center>
+    <a href="https://www.rugbypasian.it/"><img src="logo.png" /></a>
+  </center>
+</h1>
+<br>
+<center>
+<div class="Menu">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+  <a href="index.html">Home</a>
+	<a href="song.html">Canzone delle linci</a>
+	<a href= "https://www.rugbypasian.it/" target="_blank" rel="noopener noreferrer">Sito del club</a>
+  <a href="elite.html">Elite U17</a>
+  <a href="test.html">test</a>
+  </div>
+</center>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<p align="center"><iframe src="https://calendar.google.com/calendar/embed?src=dbac8caafcfbb723df402c452caf8c767e19a8782f26d72dbbcf0bfd704b3a90%40group.calendar.google.com&ctz=Europe%2FRome" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></p>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+<h6>© 2022-2023 Del Forno Lorenzo, Vuattolo Matteo, Cisilino Lorenzo</h6>
+</body>
+</html>
