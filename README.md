@@ -23,3 +23,10 @@ Cose da inserire prossimamente:
 - riempire la home
 - sistemare il css
 - sistemare la visualizzazione da Android
+
+2/3/2023 17:40
+- modifica del testo della classifica in css
+- arrotondato il text box della canzone
+- corretti alcuni errori segnati da vsc all'interno dell'html
+- in song.html corretto il text box che tocava a destra e a sinistra aveva una linea verde
+- arrotondati gli spigoli sempre in song.html
