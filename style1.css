@@ -21,12 +21,15 @@ h1 {
 font-family: Arial;
 font-size: 30px;
 background-color: #ffffff;
+width: 95%;
 color: black;
 padding: 20px;
-width: 100%;
 vertical-align: top;
-align-items: left;
+align-self: center;
+align-content: center;
+text-align: center;
 height: 20%;
+border-radius: 30px;
 
 }
 h3 {
@@ -68,7 +71,6 @@ padding: 30px;
 }
 a {
 font-weight: bold;
-
 }
 a:link {
 color: blue;
@@ -223,3 +225,13 @@ div#orizzontale {
     display: block;
 
   }
+
+.classifica {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.canzone {
+  border-radius: 30px;
+}
