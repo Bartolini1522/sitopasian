@@ -30,3 +30,6 @@ Cose da inserire prossimamente:
 - corretti alcuni errori segnati da vsc all'interno dell'html
 - in song.html corretto il text box che tocava a destra e a sinistra aveva una linea verde
 - arrotondati gli spigoli sempre in song.html
+Da correggere
+-allineamento titolo pagine nell'h1
+-rimuovere il pulsante reset nel conto dei visitatori
