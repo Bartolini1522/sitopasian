@@ -9,7 +9,7 @@ padding: 30px;
  }
 h2 {
 font-family: Arial;
-background-color: #115b73;
+background-color: #3e889c;
 color: black;
 padding: 50px;
 border-radius: 50px;
@@ -76,10 +76,13 @@ color: blue;
 
 section {
   max-width: 450px;
+  background-color:#ffffff;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 details {
-  background: orange;
+  background: rgb(255, 255, 255);
   color: black;
   padding: 15px;
   margin-bottom: 2px;

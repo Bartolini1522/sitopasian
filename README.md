@@ -12,8 +12,14 @@ Changelog:
 - altre piccole correzioni 
 - aggiunto calendario partite home
 
+2/2/2023
+
+- rimpicciolito calendario
+- spostato codice js del dropdown in dropdown.js
+- aggiunta sezione ultima partita nelle home
+- miglioramenti minori
+
 Cose da inserire prossimamente:
--riempire la home
+- riempire la home
 - sistemare il css
-- sistemare il calendario
-- spostare (se possibile) la parte di script del drop-down nel file .js
+- sistemare la visualizzazione da Android

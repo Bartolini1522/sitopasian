@@ -3,6 +3,7 @@
 <head>
 <title>Website Counter</title>
     <script defer src="index.js"></script>
+    <script defer src="dropdown.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <link href="style2.css" rel="stylesheet" type="text/css"/>
@@ -32,29 +33,6 @@
     <div class="website-counter"></div>
     <button id="reset">Reset</button>
 
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-
-</script>
 
 <p>commit test</p>
 <br>
