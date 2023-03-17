@@ -197,7 +197,6 @@ div#orizzontale {
 
     padding: 30px;
     display: inline-block;
-    background-color: #ffffff;
 
   }
 
@@ -218,13 +217,14 @@ div#orizzontale {
   td {
 
     padding: 10px;
+    background-color: #ffffff;
 
   }
 
   iframe {
 
     display: block;
-
+    background-color: #ffffff;
   }
 
 .classifica {
