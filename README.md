@@ -39,3 +39,4 @@ Da correggere
 - sistemato css per la tabella (forse)
 - rimossa pagina test in quanto inutile
 
+-(Aggiungero se possibile il certificato tls in modo da avere il sito "sicuro")
