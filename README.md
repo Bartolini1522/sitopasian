@@ -37,4 +37,5 @@ Da correggere
 17/3/2023
 - aggiunta tabella in excel per punti elite (vuattul)
 - sistemato css per la tabella (forse)
+- rimossa pagina test in quanto inutile
 
