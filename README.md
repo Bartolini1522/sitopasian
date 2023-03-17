@@ -33,3 +33,8 @@ Cose da inserire prossimamente:
 Da correggere
 -allineamento titolo pagine nell'h1
 -rimuovere il pulsante reset nel conto dei visitatori
+
+17/3/2023
+- aggiunta tabella in excel per punti elite (vuattul)
+- sistemato css per la tabella (forse)
+
